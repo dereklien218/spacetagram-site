@@ -1,0 +1,258 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: #222222;
+}
+
+.jumbotron h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  color: #d14f4f;
+  font-weight: 800;
+}
+
+h4 {
+  font-weight: 800;
+  color: #d14f4f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #d14f4f;
+}
+
+.btn-primary {
+  background-color: #0b7291;
+}
+
+.btn-primary:hover {
+  background-color: #074f64;
+}
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb-item {
+  color: white;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card {
+  border-color: #222222;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  border-radius: 0px;
+  border: none;
+  object-fit: cover;
+}
+
+.card-img-overlay:hover {
+  background-color: rgba(43, 91, 131, 0.164);
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+footer a:hover {
+  font-weight: 600;
+  color: #d14f4f;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #141414;
+}
+
+footer h3 {
+  font-weight: 800;
+  color: #d14f4f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer i {
+  color: #d14f4f;
+}
+
+footer hr {
+  width: 60px;
+  border-width: 4px;
+  background-color: #d14f4f;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to left, #0b7291, #ad2c18);
+  color: white;
+}
+
+.jumbotron h2 {
+  color: #cec8ff;
+  font-style: italic;
+}
+
+.navbar-text button {
+  color: white;
+}
+
+.navbar-text button:hover {
+  background-color: #d14f4f;
+}
+
+.navbar-dark {
+  background-image: linear-gradient(to left, #0b7291, #ad2c18);
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  max-width: auto;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+  position: relative;
+}
+
+.home .btn {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2rem 3rem;
+  transition: color 0.3s ease all;
+  text-transform: uppercase;
+  background: rgba(252, 62, 33, 0.61);
+}
+
+.home .btn:hover {
+  border-radius: 2px;
+  background: rgba(252, 61, 33, 0.7);
+}
+
+.btn {
+  border: 1px transparent;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.25rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.nasa-photo {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.nasa-photo img {
+  width: 50%;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.nasa-photo h1 {
+  color: #d14f4f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nasa-photo .date {
+  color: #d14f4f;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.nasa-photo .explanation {
+  color: rgb(211, 211, 211);
+}
+
+@media (max-width: 1280px) {
+  .nasa-photo {
+    display: block;
+  }
+
+  .nasa-photo img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.heart h5 {
+  font-weight: 600;
+  color: #d14f4f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.comments {
+  color: rgb(211, 211, 211);
+}
+
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
