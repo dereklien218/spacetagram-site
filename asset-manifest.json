@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spacetagram-site/static/css/main.664d0ab8.css",
-    "main.js": "/spacetagram-site/static/js/main.120c3340.js",
+    "main.js": "/spacetagram-site/static/js/main.257004d7.js",
     "static/js/787.eb27d367.chunk.js": "/spacetagram-site/static/js/787.eb27d367.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/spacetagram-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/spacetagram-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -54,11 +54,11 @@
     "static/media/open-sans-latin-400italic.woff2": "/spacetagram-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/spacetagram-site/index.html",
     "main.664d0ab8.css.map": "/spacetagram-site/static/css/main.664d0ab8.css.map",
-    "main.120c3340.js.map": "/spacetagram-site/static/js/main.120c3340.js.map",
+    "main.257004d7.js.map": "/spacetagram-site/static/js/main.257004d7.js.map",
     "787.eb27d367.chunk.js.map": "/spacetagram-site/static/js/787.eb27d367.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.664d0ab8.css",
-    "static/js/main.120c3340.js"
+    "static/js/main.257004d7.js"
   ]
 }
