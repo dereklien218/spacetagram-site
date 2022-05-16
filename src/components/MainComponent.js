@@ -100,7 +100,6 @@ class Main extends Component {
                 render={() => <MarsRover marsrovers={this.props.marsrovers} />}
               />
               <Route path="/cosmos" component={CosmoPage} />
-              />
               <Redirect to="/home" />
             </Switch>
           </CSSTransition>
