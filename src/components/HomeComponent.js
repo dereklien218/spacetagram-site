@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  Button,
+} from "reactstrap";
 import { Loading } from "./LoadingComponent";
 import { Link } from "react-router-dom";
 
@@ -52,9 +59,9 @@ function Home(props) {
         <div className="container">
           <div className="row justify-content-center">
             <h1>NASA's Photo of the Day</h1>
-            <a className="btn btn-primary mt-5" href="/nasaphoto">
+            <Button href="/nasaphoto" className="mt-5">
               Explore the Cosmos
-            </a>
+            </Button>
           </div>
         </div>
       </div>
@@ -101,9 +108,9 @@ function Home(props) {
         <div className="container">
           <div className="row justify-content-center p-4">
             <h1>Explore Mars with Perseverance</h1>
-            <a className="btn btn-primary mt-5" href="/marsrover">
+            <Button href="/marsrover" className="mt-5">
               View Rover Images
-            </a>
+            </Button>
           </div>
         </div>
       </div>
