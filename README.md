@@ -1,7 +1,8 @@
 # Spacetagram
 
-This project was developed to practice applying the concepts I learned while taking classes on React and Redux and to practice fetching data from an api. The api used is NASA's Astronomy Picture of the Day.\
-[View the site](https://dereklien218.github.io/spacetagram-site/)\
+This project was developed to practice applying the concepts I learned while taking classes on React and Redux and to practice fetching data from an api. The api used is NASA's Astronomy Picture of the Day.
+
+[View the site](https://dereklien218.github.io/spacetagram-site/)
 \
 ![Homepage Screenshot](public/assets/images/spacetagram-screenshot.jpg)
 
