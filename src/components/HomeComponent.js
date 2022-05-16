@@ -58,10 +58,14 @@ function Home(props) {
       >
         <div className="container">
           <div className="row justify-content-center">
-            <h1>NASA's Photo of the Day</h1>
-            <Button href="/nasaphoto" className="mt-5">
-              Explore the Cosmos
-            </Button>
+            <div className="col-xs m-2 p-2 text-center">
+              <h1>NASA's Photo of the Day</h1>
+              <Link to="/nasaphoto">
+                <Button color="primary" className="mt-5">
+                  Explore the Cosmos
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -106,11 +110,15 @@ function Home(props) {
         }}
       >
         <div className="container">
-          <div className="row justify-content-center p-4">
-            <h1>Explore Mars with Perseverance</h1>
-            <Button href="/marsrover" className="mt-5">
-              View Rover Images
-            </Button>
+          <div className="row">
+            <div className="col text-center">
+              <h1>Explore Mars with Perseverance</h1>
+              <Link to="/marsrover">
+                <Button color="primary" className="mt-5">
+                  View Rover Images
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
