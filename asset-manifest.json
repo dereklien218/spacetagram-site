@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spacetagram-site/static/css/main.40ca0bcc.css",
+    "main.css": "/spacetagram-site/static/css/main.141c55f6.css",
     "main.js": "/spacetagram-site/static/js/main.7bc78d9b.js",
     "static/js/787.eb27d367.chunk.js": "/spacetagram-site/static/js/787.eb27d367.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/spacetagram-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -53,12 +53,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/spacetagram-site/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/spacetagram-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/spacetagram-site/index.html",
-    "main.40ca0bcc.css.map": "/spacetagram-site/static/css/main.40ca0bcc.css.map",
+    "main.141c55f6.css.map": "/spacetagram-site/static/css/main.141c55f6.css.map",
     "main.7bc78d9b.js.map": "/spacetagram-site/static/js/main.7bc78d9b.js.map",
     "787.eb27d367.chunk.js.map": "/spacetagram-site/static/js/787.eb27d367.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40ca0bcc.css",
+    "static/css/main.141c55f6.css",
     "static/js/main.7bc78d9b.js"
   ]
 }
