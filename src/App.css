@@ -112,7 +112,7 @@ footer hr {
 
 .jumbotron {
   margin: 0;
-  padding: 30px;
+  padding: 20px;
   background-image: linear-gradient(to left, #0b7291, #ad2c18);
   color: white;
 }
@@ -144,6 +144,14 @@ footer hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*------------------ MEDIA ------------------*/
+
+@media screen and (max-device-width: 768px) {
+  .home {
+    background-attachment: scroll !important;
+  }
 }
 
 .home h1 {
