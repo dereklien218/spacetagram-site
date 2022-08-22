@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   Card,
   CardImg,
@@ -9,8 +9,6 @@ import {
 } from "reactstrap";
 import { Loading } from "./LoadingComponent";
 import { Link } from "react-router-dom";
-
-const apiKey = process.env.REACT_APP_NASA_KEY;
 
 function RenderCard({ item, isLoading, errMess }) {
   if (isLoading) {
@@ -31,31 +29,9 @@ function RenderCard({ item, isLoading, errMess }) {
 }
 
 function Home(props) {
-  const [photoData, setPhotoData] = useState(null);
-
-  useEffect(() => {
-    fetchPhoto();
-
-    async function fetchPhoto() {
-      const res = await fetch(
-        `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
-      );
-      const data = await res.json();
-      setPhotoData(data);
-      console.log(data);
-    }
-  }, []);
-
-  if (!photoData) return <div />;
-
   return (
     <>
-      <div
-        className="home"
-        style={{
-          backgroundImage: `url(${photoData.url})`,
-        }}
-      >
+      <div className="home">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xs m-2 p-2 text-center">
