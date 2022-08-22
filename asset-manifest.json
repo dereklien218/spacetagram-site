@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/spacetagram-site/static/css/main.a8dafd9d.css",
-    "main.js": "/spacetagram-site/static/js/main.46e735c3.js",
+    "main.css": "/spacetagram-site/static/css/main.f5698aaa.css",
+    "main.js": "/spacetagram-site/static/js/main.78cb3aee.js",
     "static/js/787.eb27d367.chunk.js": "/spacetagram-site/static/js/787.eb27d367.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/spacetagram-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/DuelingBands_Dai_2000-600h.jpg": "/spacetagram-site/static/media/DuelingBands_Dai_2000-600h.da56265edf4c421a2b7c.jpg",
     "static/media/fontawesome-webfont.eot": "/spacetagram-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/spacetagram-site/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/spacetagram-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -53,12 +54,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/spacetagram-site/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/spacetagram-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/spacetagram-site/index.html",
-    "main.a8dafd9d.css.map": "/spacetagram-site/static/css/main.a8dafd9d.css.map",
-    "main.46e735c3.js.map": "/spacetagram-site/static/js/main.46e735c3.js.map",
+    "main.f5698aaa.css.map": "/spacetagram-site/static/css/main.f5698aaa.css.map",
+    "main.78cb3aee.js.map": "/spacetagram-site/static/js/main.78cb3aee.js.map",
     "787.eb27d367.chunk.js.map": "/spacetagram-site/static/js/787.eb27d367.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8dafd9d.css",
-    "static/js/main.46e735c3.js"
+    "static/css/main.f5698aaa.css",
+    "static/js/main.78cb3aee.js"
   ]
 }
